@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="todo.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="todo.js"></script>
+    <title>Document</title>
+</head>
+<body style = "background-image: url('todo4.jpg');" > 
+    
+    
+        <div class = "todoList" style="padding-top : 100px ;">
+                <div class = "row" >
+
+                        <div class = "col-0 col-md-2 col-sm-1 col-lg-3"></div>
+
+                                <div class= "col-12 col-md-8 col-sm-10 col-lg-6">
+                                        <div class = "container" >
+                                        
+                                                    <div class="container">
+                                                            <button type = "button" class="block"> 
+                                                                <h1 style = "color: white ; font-size: 60px"> <b> <u> To Do's </u> </b> </h1> 
+                                                            </button>
+                                                    </div>
+
+                                                    <div class="container">
+                                                            <div class="input-group" >
+                                                                    <input type="text" class="form-control" placeholder="Task Name" aria-label="Recipient's username" aria-describedby="basic-addon2" id = "task-input" >
+                                                                    <div class="input-group-append">
+                                                                      <button class="btn btn-btn-primary btn-green" type="button" id = "add-task"><i class="fas fa-plus" style="font-size:30px;"></i></button>
+                                                                      <button class="btn btn-btn-secondary btn-red" type="button" id = "remove-c-tasks"><i class="fas fa-trash" style="font-size:30px;"></i></button>
+                                                                      <button class="btn btn-btn-dark btn-blue" type="button" id = "sort-tasks"><i class="fas fa-sort-amount-up" style="font-size:30px;"></i></button>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                        
+                                                    <div class="container">
+                                                            <div class="list-group" id = "task-list">
+                                                                
+                                                               
+
+                                                            </div>
+                                                    </div>
+                        
+                        
+                                                
+
+                                        </div>    
+                                </div>
+
+                        <div class = "col-0 col-md-2 col-sm-1 col-lg-3"></div>
+
+                </div>
+        </div>
+
+         
+
+</body>
+</html>
